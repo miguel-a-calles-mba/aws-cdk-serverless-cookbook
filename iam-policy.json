@@ -1,0 +1,26 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "cdk",
+      "Effect": "Allow",
+      "Action": [
+        "acm:*",
+        "apigateway:*",
+        "cloudformation:*",
+        "cloudwatch:*",
+        "dynamodb:*",
+        "ecr:*",
+        "events:*",
+        "iam:*",
+        "lambda:*",
+        "logs:*",
+        "s3:*",
+        "s3-object-lambda:*",
+        "ssm:*",
+        "route53:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

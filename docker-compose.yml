@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nodejs:
+    image: "cimg/node:18.15"
+    user: "circleci"
+    working_dir: "/home/nodejs"
+    volumes:
+      - "./:/home/nodejs"
