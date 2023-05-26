@@ -3,6 +3,7 @@ services:
   nodejs:
     image: "cimg/node:18.15"
     user: "circleci"
-    working_dir: "/home/nodejs"
+    working_dir: "/home/circleci"
     volumes:
-      - "./:/home/nodejs"
+      - "./:/home/circleci"
+    command: "bash"
